@@ -17,10 +17,6 @@ const colors = {
 type Player = "X" | "O";
 type CellValue = Player | null;
 
-function getNextPlayer(current: Player): Player {
-  return current === "X" ? "O" : "X";
-}
-
 // PUBLIC_INTERFACE
 function calculateWinner(cells: CellValue[]): Player | "draw" | null {
   const lines = [

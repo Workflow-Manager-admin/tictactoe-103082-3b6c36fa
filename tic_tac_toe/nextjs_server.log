@@ -13,3 +13,89 @@ You can learn more, including how to opt-out if you'd not like to participate in
 https://nextjs.org/telemetry
 
  ✓ Ready in 3.8s
+ ○ Compiling / ...
+ ⨯ ./src/app/page.tsx
+Error:   [31mx[0m `ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a client component.
+   ,-[[36;1;4m/home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/src/app/page.tsx[0m:4:1]
+ [2m1[0m | import dynamic from "next/dynamic";
+ [2m2[0m | 
+ [2m3[0m | // Use dynamic import to avoid "use client" propagation issues in app directory
+ [2m4[0m | const TicTacToe = dynamic(() => import("./TicTacToe"), { ssr: false });
+   : [35;1m                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+ [2m5[0m | 
+ [2m6[0m | export default function Home() {
+ [2m7[0m |   return (
+   `----
+
+Import trace for requested module:
+./src/app/page.tsx
+ ⨯ ./src/app/page.tsx
+Error:   [31mx[0m `ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a client component.
+   ,-[[36;1;4m/home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/src/app/page.tsx[0m:4:1]
+ [2m1[0m | import dynamic from "next/dynamic";
+ [2m2[0m | 
+ [2m3[0m | // Use dynamic import to avoid "use client" propagation issues in app directory
+ [2m4[0m | const TicTacToe = dynamic(() => import("./TicTacToe"), { ssr: false });
+   : [35;1m                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+ [2m5[0m | 
+ [2m6[0m | export default function Home() {
+ [2m7[0m |   return (
+   `----
+
+Import trace for requested module:
+./src/app/page.tsx
+ ⨯ [Error: Cannot find module '/home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/.next/server/middleware-manifest.json'
+Require stack:
+- /home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/node_modules/next/dist/server/next-server.js
+- /home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/node_modules/next/dist/server/dev/next-dev-server.js
+- /home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/node_modules/next/dist/server/next.js
+- /home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/node_modules/next/dist/server/lib/start-server.js] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module '/home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/.next/server/middleware-manifest.json'
+Require stack:
+- /home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/node_modules/next/dist/server/next-server.js
+- /home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/node_modules/next/dist/server/dev/next-dev-server.js
+- /home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/node_modules/next/dist/server/next.js
+- /home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/node_modules/next/dist/server/lib/start-server.js] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module '/home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/.next/server/middleware-manifest.json'
+Require stack:
+- /home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/node_modules/next/dist/server/next-server.js
+- /home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/node_modules/next/dist/server/dev/next-dev-server.js
+- /home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/node_modules/next/dist/server/next.js
+- /home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/node_modules/next/dist/server/lib/start-server.js] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module '/home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/.next/server/middleware-manifest.json'
+Require stack:
+- /home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/node_modules/next/dist/server/next-server.js
+- /home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/node_modules/next/dist/server/dev/next-dev-server.js
+- /home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/node_modules/next/dist/server/next.js
+- /home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/node_modules/next/dist/server/lib/start-server.js] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module '/home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/.next/server/middleware-manifest.json'
+Require stack:
+- /home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/node_modules/next/dist/server/next-server.js
+- /home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/node_modules/next/dist/server/dev/next-dev-server.js
+- /home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/node_modules/next/dist/server/next.js
+- /home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/node_modules/next/dist/server/lib/start-server.js] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: Cannot find module '/home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/.next/server/middleware-manifest.json'
+Require stack:
+- /home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/node_modules/next/dist/server/next-server.js
+- /home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/node_modules/next/dist/server/dev/next-dev-server.js
+- /home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/node_modules/next/dist/server/next.js
+- /home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/node_modules/next/dist/server/lib/start-server.js] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ✓ Compiled /_not-found in 1998ms (319 modules)
