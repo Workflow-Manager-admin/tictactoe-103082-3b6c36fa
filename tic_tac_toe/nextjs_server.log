@@ -99,3 +99,15 @@ Require stack:
   requireStack: [Array]
 }
  ✓ Compiled /_not-found in 1998ms (319 modules)
+ ✓ Compiled in 22.9s (319 modules)
+ ✓ Compiled in 48.5s (319 modules)
+ ✓ Compiled in 4.6s (319 modules)
+ ⨯ [Error: Cannot find module '/home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/.next/server/middleware-manifest.json'
+Require stack:
+- /home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/node_modules/next/dist/server/next-server.js
+- /home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/node_modules/next/dist/server/dev/next-dev-server.js
+- /home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/node_modules/next/dist/server/next.js
+- /home/kavia/workspace/code-generation/tictactoe-103082-3b6c36fa/tic_tac_toe/node_modules/next/dist/server/lib/start-server.js] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
